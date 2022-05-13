@@ -11,7 +11,7 @@ class Square extends React.Component {
       );
     }
   }
-  
+  // 기능 동적으로 구현하기
   class Board extends React.Component {
     renderSquare(i) {
       return <Square value={i} />;
